@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** /res/layout/main.xml
+**
+** Author: Lorensius W. L. T <lorenz@londatiga.net
+**
+*/
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:padding="6dp"
+    android:orientation="vertical" >
+
+    <Button 
+        android:id="@+id/btn_setimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input image"
+        />
+    <ImageView
+        android:id="@+id/img_ocrname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_ocrname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCR" />
+
+        <EditText
+            android:id="@+id/et_ocrname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+    </LinearLayout>
+
+     <ImageView
+        android:id="@+id/img_ocrfathername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_ocrfathername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCR" />
+
+        <EditText
+            android:id="@+id/et_ocrfathername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Father name" />
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/img_ocridnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_ocridnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCR" />
+
+        <EditText
+            android:id="@+id/et_ocridnumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID Number" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_ocrdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_ocrdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCR" />
+
+        <EditText
+            android:id="@+id/et_ocrdate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date" />
+    </LinearLayout>
+
+     <ImageView
+        android:id="@+id/img_ocrgender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_ocrgender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCR" />
+
+        <EditText
+            android:id="@+id/et_ocrgender"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gender" />
+    </LinearLayout>
+    
+    
+    
+    <ImageView
+        android:id="@+id/img_ocraddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_ocraddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OCR" />
+
+        <EditText
+            android:id="@+id/et_ocraddress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit to Server" />
+
+</LinearLayout>
